@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 1em;
+}
+
+header h1 {
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2em;
+}
+
+section {
+	flex: 1 1 50%;
+	margin-bottom: 2em;
+}
+
+section h2 {
+	margin: 0 0 1em;
+}
+
+section p {
+	margin-bottom: 1em;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 1em;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
