@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login</title>
+    <style>
+body {
+    background-image: url("image1.jpg");
+	font-family: Arial, sans-serif;
+}
+
+.login-container {
+	width: 300px;
+	background-color: #929090;
+	padding: 2em;
+	margin: 9em auto;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(10, 217, 41, 0.1);
+}
+
+.login-container h2 {
+	text-align: center;
+	margin-top: 0;
+}
+
+.login-container label {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+	padding: 0.5em;
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+
+.login-container input[type="submit"] {
+	padding: 0.5em;
+	background-color: #12c515;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 1em;
+}
+
+.login-container input[type="submit"]:hover {
+	background-color: #030303;
+}
+
+.login-container p {
+	margin-top: 1em;
+	color: #777;
+}
+</style>
+</head>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page</title>
+	<link rel="stylesheet" href="logoin1.css">
+</head>
+<body>
+	<div class="login-container">
+		<h2>Login</h2>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required><br><br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required><br><br>
+			<input type="submit" value="Login">
+		</form>
+		<p>Don't have an account? <a href="signup.html">Sign up</a></p>
+	</div>
+</body>
+</html>
